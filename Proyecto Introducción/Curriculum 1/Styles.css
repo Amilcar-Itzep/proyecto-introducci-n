@@ -1,0 +1,55 @@
+body {
+    background-color: #87CEEB; /* Color celeste */
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center; /* Centra todo el texto en el cuerpo */
+}
+
+#principal {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+fieldset {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center; /* Centra el contenido de los fieldsets */
+}
+
+legend {
+    font-weight: bold;
+}
+
+ul, ol {
+    list-style-position: inside; /* Coloca los bullets o números dentro del contenedor */
+    padding-left: 0; /* Elimina el padding izquierdo */
+    text-align: center; /* Centra el texto de las listas */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center; /* Centra el texto de las celdas */
+}
+
+th {
+    background-color: #f2f2f2;
+}

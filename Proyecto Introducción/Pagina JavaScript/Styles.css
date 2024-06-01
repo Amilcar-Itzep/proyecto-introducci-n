@@ -1,0 +1,78 @@
+/* Estilo para el cuerpo */
+body {
+    background-color: #C82A54; /* Color de fondo #C82A54 */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Contenedor principal */
+.contenedor {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    padding: 20px; /* Espaciado interior */
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos del título */
+.titulo {
+    margin-bottom: 20px;
+}
+
+.titulo h1 {
+    color: #C82A54; /* Color del texto */
+    font-size: 36px; /* Tamaño del texto */
+    margin: 0; /* Eliminar margen superior */
+}
+
+/* Estilos de los elementos */
+.elementos {
+    margin-bottom: 20px;
+}
+
+.elemento {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    font-size: 24px;
+}
+
+/* Estilos de los botones */
+.elementos button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.elementos button:hover {
+    background-color: #E57373; /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos adicionales */
+.estilo1 {
+    background-color: lightblue;
+    color: black;
+    border: 1px solid blue;
+}
+
+.estilo2 {
+    background-color: lightgreen;
+    color: darkgreen;
+    border: 2px dashed green;
+}
+
+.estilo3 {
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos y Botones</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="contenedor">
+    <div class="titulo">
+        <h1>Página Principal</h1>
+    </div>
+
+    <div class="elementos">
+        <a href="file:///D:/2024/Proyecto%20Introducción/Curriculum%201/Curriculum.html" class="elemento estilo1">Curriculum 1</a>
+        <a href="file:///D:/2024/Proyecto%20Introducción/Curriculum%202/Curriculum2.html" class="elemento estilo1">Curriculum 2</a>
+        <a href="file:///D:/2024/Proyecto%20Introducción/Calculadora/index.html" class="elemento estilo1">Calculadora</a>
+    </div>
+
+    <div class="elementos">
+        <button onclick="cambiarEstilo('estilo1')">Estilo 1</button>
+        <button onclick="cambiarEstilo('estilo2')">Estilo 2</button>
+        <button onclick="cambiarEstilo('estilo3')">Estilo 3</button>
+    </div>
+</div>
+
+<script>
+    function cambiarEstilo(estilo) {
+        var elementos = document.getElementsByClassName("elemento");
+        
+        for (var i = 0; i < elementos.length; i++) {
+            var elemento = elementos[i];
+            elemento.className = 'elemento ' + estilo;
+        }
+    }
+</script>
+
+</body>
+</html>
